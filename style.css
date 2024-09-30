@@ -26,14 +26,14 @@ h1,h2,h3,h4,h5{
     position: relative;
 }
 .navbar-nav .nav-link::before,.navbar-nav .nav-link::after{
-    content: ''; /* Empty content to use as lines */
+    content: ''; 
     position: absolute;
     width: 0;
-    height: 2px; /* Thickness of the underline */
-    background-color: var(--clr-primary-dark); /* Underline color */
+    height: 3px; 
+    background-color: var(--clr-primary-dark); 
     transition: width 0.3s ease;
-    bottom: -2px; /* Position underline slightly below text */
-    border-radius: 15px;
+    bottom: -2px;
+    border-radius: 5px;
 }
 .navbar-nav .nav-link::before{
     left: 0;
@@ -41,6 +41,7 @@ h1,h2,h3,h4,h5{
 }
 .navbar-nav .nav-link::after{
     right: 0;
+   
     
 
 }
