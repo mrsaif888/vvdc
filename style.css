@@ -5,6 +5,9 @@
     --clr-accent:#ee4c7c;
     }
     /* default */
+    body{
+        color: var(--clr-primary-dark);
+    }
     p{
         margin-top: unset;
         margin-bottom: unset;
@@ -205,6 +208,22 @@
     .btn-program:hover{
         background-color: var(--clr-secondary-dark);
         color: var(--clr-primary);
+    }
+    /* approach section */
+    .approach{
+        background-color: var(--clr-secondary);
+        background-attachment: fixed;
+    }
+    .approach p{
+        width: 80%;
+    }
+    .approach-image img{
+        width: 500px;
+    }
+    .btn-approach{
+        background-color: var(--clr-primary);
+        width: 35%;
+        font-size: 1rem;
     }
     /* testimonial section */
     .testimonial{
