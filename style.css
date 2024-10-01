@@ -226,12 +226,18 @@
         padding: 50px;
 
     }
-    .carousel-content p, .carousel-content h4{
-        width: 50%;
+    .carousel-content p{
+        width: 70%;
         margin: 0 auto;
     }
+    .testimonial-row{
+        align-items: center;
+    }
     .carousel-content h4{
-        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .carousel-avatar img{
+        width: 100%;
     }
     @media (max-width:426px){
         .card{
