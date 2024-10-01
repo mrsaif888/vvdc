@@ -69,7 +69,7 @@
     }
     /* hero section */
     .hero-image{
-        background-image: url(bg2.jpg);
+        background-image: url(bg.jpg);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -102,7 +102,7 @@
         z-index: 2;
         color: var(--clr-secondary);
         min-height: calc(100vh - 280px);
-        background: rgba(255, 255, 255, 0.5);
+        background: rgba(255, 255, 255, 0.7);
         box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
         border-radius: 20px;
         padding: 50px;
@@ -257,6 +257,40 @@
     }
     .carousel-avatar img{
         width: 100%;
+    }
+    /* footer */
+    .footer{
+        background-color: var(--clr-primary);
+    }
+    .footer-links{
+        padding: 0;
+        list-style: none;
+
+    }
+    .footer-links li {
+        padding-top: 5px;
+    }
+    .footer-links li a {
+        text-decoration: none;
+        color: var(--clr-primary-dark);
+       
+    }
+    .logo-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logo-footer img{
+        max-width: 100%;
+        width: 150px;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5rem;
+    }
+    .fa-brands{
+        padding-right: 25px;
     }
     @media (max-width:426px){
         .card{
