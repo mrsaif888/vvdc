@@ -206,6 +206,33 @@
         background-color: var(--clr-secondary-dark);
         color: var(--clr-primary);
     }
+    /* testimonial section */
+    .testimonial{
+        background: url(testimonial-bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center;
+        object-fit: cover;
+        color: var(--clr-primary-dark);
+    }
+   
+    .carousel-content{
+        width: 100%;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 15px 35px rgba(255, 255, 255, 0.05);
+        border-radius: 20px;
+        padding: 50px;
+
+    }
+    .carousel-content p, .carousel-content h4{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .carousel-content h4{
+        margin-top: 2rem;
+    }
     @media (max-width:426px){
         .card{
             width: auto;
