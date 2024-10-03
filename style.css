@@ -366,6 +366,15 @@
     background-size: contain;
     background-position: center bottom;
 }
+.about-mission img, .about-staff img{
+width: 100%;
+height: 80%;
+border-radius: 25px;
+}
+.about-mission p, .about-staff p{
+    width: 80%;
+    margin:  0 auto;
+}
     /* contact us page */
     .contact-us-box{
         position: relative;
