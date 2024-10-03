@@ -292,6 +292,80 @@
     .fa-brands{
         padding-right: 25px;
     }
+    /* about us page */
+    .about-hero{
+        background-image: url(about-bg.jpg);
+        height: 80vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-position: center;
+        position: relative;
+        z-index: 2;
+        display: flex;
+         justify-content: center;
+         align-items: center;
+         overflow: hidden;
+         color: var(--clr-primary);
+
+    }
+    .about-hero::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--clr-accent);
+        opacity: 0.82;
+        z-index: -1;
+    }
+    
+    .about-heading h1{
+        font-size:5rem ;
+        position: relative;
+        z-index: 10;
+    }
+    .about-heading h1::before,
+    .about-heading h1::after {
+        content: '';
+        position: absolute;
+        width: 28%; /* Length of decorative lines */
+        height: 8px; /* Thickness of the decorative lines */
+        background-color: var(--clr-primary-dark); /* Color of the lines */
+        bottom: 0; /* Position the lines at the bottom of the text */
+        border-radius: 10px;
+    }
+    
+    .about-heading h1::before {
+        left: 0px; /* Distance from the text */
+    }
+    
+    .about-heading h1::after {
+        left: 0px; /* Distance from the text */
+    }
+    
+    /* Underline */
+    .about-heading h1::after,
+    .about-heading h1::before {
+        bottom: 0;
+        
+    }
+    .about-cloud{
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 132px;
+    background-image: url(about-cloud.png);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center bottom;
+}
     /* contact us page */
     .contact-us-box{
         position: relative;
