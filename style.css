@@ -375,6 +375,9 @@ border-radius: 25px;
     width: 80%;
     margin:  0 auto;
 }
+.about-staff{
+    background-color: var(--clr-primary);
+}
     /* contact us page */
     .contact-us-box{
         position: relative;
