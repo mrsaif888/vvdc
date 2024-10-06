@@ -378,6 +378,15 @@ border-radius: 25px;
 .about-staff{
     background-color: var(--clr-primary);
 }
+/* program page */
+.btn-program{
+    width: 40%;
+}
+.infants img{
+    width: 350px;
+    height: auto;
+    max-width: 400px;
+}
     /* contact us page */
     .contact-us-box{
         position: relative;
