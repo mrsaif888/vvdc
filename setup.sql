@@ -19,9 +19,18 @@ CREATE TABLE IF NOT EXISTS limits_event (
 );
 
 INSERT INTO limits_event (event_name, max_limit, current_registrations) VALUES
-('Music and Movement Class', 5, 0),
-('Sensory Play Workshop', 5, 0),
-('Parent-Baby Bonding Session', 5, 0);
+('Sensory Play Day', 5, 0),
+('Baby Music & Movement', 5, 0),
+('Storytime & Tummy Time', 5, 0),
+('Messy Art Day', 5, 0),
+('Nature Walk & Discovery', 5, 0),
+('Music & Dance Party', 5, 0),
+('STEM Exploration Day', 5, 0),
+('Cultural Celebration Week', 5, 0),
+('Creative Arts Showcase', 5, 0),
+('Homework & Study Support Hour', 5, 0),
+('Sports & Fitness Challenge', 5, 0),
+('Talent Show Night', 5, 0);
 
 DELIMITER //
 
