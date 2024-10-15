@@ -410,6 +410,15 @@ max-width: 400px;
     max-width: 400px;
 }
 /* parent Resources page */
+.pr-bg{
+    background-image: url(./pr-bg.jpg);
+}
+.pr-heading{
+    width: 51%;
+}
+.pr-heading h1::after, .pr-heading h1::before{
+    width: 100%;
+}
 .registration{
     background-color: var(--clr-primary-dark);
     color: var(--clr-primary);
