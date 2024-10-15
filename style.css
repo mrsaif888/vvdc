@@ -235,8 +235,26 @@
         background-position: center;
         object-fit: cover;
         color: var(--clr-primary-dark);
+        position: relative;
+        z-index: 1;
+    }
+    .testimonial::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--clr-primary-dark);
+        opacity: 0.6;
+        z-index: -1;
     }
    
+    .testimonial h2{
+        color: var(--clr-primary);
+    }
     .carousel-content{
         width: 100%;
         background: rgba(255, 255, 255, 0.8);
@@ -501,7 +519,7 @@ max-width: 400px;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: var(--clr-primary);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
@@ -539,20 +557,15 @@ max-width: 400px;
   /* Focus state for input and textarea */
   .event-form input:focus,
   .event-form textarea:focus {
-    border-color: #007BFF;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    border-color: var(--clr-secondary-dark);
+    box-shadow: 0 0 5px rgba(93, 0, 30, 0.5);
     outline: none;
   }
   
  
   
   
-  /* Active state for submit button */
-  .event-form input[type="submit"]:active {
-    background-color: #1e7e34; /* Even darker on click */
-    transform: translateY(0); /* Remove lift on click */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+  
   .event-form .submit-button {
     width: 100%;
     padding: 14px;
