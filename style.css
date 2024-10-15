@@ -411,11 +411,20 @@ max-width: 400px;
 }
 /* parent Resources page */
 .registration{
+    background-color: var(--clr-primary-dark);
+    color: var(--clr-primary);
+}
+.accordion-button:not(.collapsed){
     background-color: var(--clr-primary);
+    color: var(--clr-primary-dark);
+    
+}
+.accordion-button:focus{
+    box-shadow: var(--clr-primary-dark);
 }
 .reg-form a{
     text-decoration: none;
-    color: var(--clr-primary-dark);
+    color: var(--clr-primary);
     font-weight:500 ;
 }
     /* contact us page */
