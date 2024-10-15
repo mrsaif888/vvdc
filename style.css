@@ -409,6 +409,12 @@ max-width: 400px;
     height: auto;
     max-width: 400px;
 }
+/* parent Resources page */
+.reg-form a{
+    text-decoration: none;
+    color: var(--clr-primary-dark);
+    font-weight:500 ;
+}
     /* contact us page */
     .contact-bg{
         background-image: url('contact-bg.jpg');
