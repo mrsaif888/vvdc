@@ -410,6 +410,9 @@ max-width: 400px;
     max-width: 400px;
 }
 /* parent Resources page */
+.registration{
+    background-color: var(--clr-primary);
+}
 .reg-form a{
     text-decoration: none;
     color: var(--clr-primary-dark);
