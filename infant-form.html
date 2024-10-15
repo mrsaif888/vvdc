@@ -44,7 +44,7 @@
     <section class="forms">
         <div class="margin-padding">
             <div class="container">
-        <form action="infant-form.php" method="POST">
+        <form action="infant-form.php" class="event-form" method="POST">
             <h2>Event Registration</h2>
           
             <label for="parentName" class="form-label">Parent Name:</label><br>
@@ -62,7 +62,7 @@
             <label for="childAge">Child's Age</label><br>
             <input type="number" id="childAge" name="childAge" required><br><br>
           
-            <h3>Select Event:</h3>
+            <h3 class="mb-3">Select Event:</h3>
             
               <label for="Event">Choose an Event:</label>
               <select id="category" name="event">
@@ -93,7 +93,7 @@
             <label for="comments">Additional Comments or Needs:</label><br>
             <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
           </div>
-            <button type="submit">Register Now</button>
+            <button type="submit" class="submit-button">Register Now</button>
           </form>
         </div> 
     </div>

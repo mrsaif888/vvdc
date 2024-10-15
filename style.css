@@ -494,7 +494,92 @@ max-width: 400px;
         background-color: var(--clr-secondary-dark);
         color: var(--clr-primary);
     }
-    
+
+    /* event form page */
+    /* General styling for event-form container */
+.event-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label styling */
+  .event-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  /* Input and Textarea field styling */
+  .event-form input[type="text"],
+  .event-form input[type="email"],
+  .event-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Placeholder text styling */
+  .event-form input::placeholder,
+  .event-form textarea::placeholder {
+    color: #999;
+  }
+  
+  /* Focus state for input and textarea */
+  .event-form input:focus,
+  .event-form textarea:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+  }
+  
+ 
+  
+  
+  /* Active state for submit button */
+  .event-form input[type="submit"]:active {
+    background-color: #1e7e34; /* Even darker on click */
+    transform: translateY(0); /* Remove lift on click */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .event-form .submit-button {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--clr-primary-dark); /* A pleasant green color */
+    color: var(--clr-primary);
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Button shadow */
+  }
+  
+  /* Hover state for button */
+  .event-form .submit-button:hover {
+    background-color: var(--clr-primary-dark); /* Darker green for hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    color: var(--clr-primary);
+  }
+  
+ 
+  
+  
+ 
+  
     @media (max-width:1200px){
         .contact-us-box{
             width: 90%;
