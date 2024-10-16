@@ -348,31 +348,31 @@
         position: relative;
         z-index: 10;
     }
-    .about-heading h1::before,
+    /* .about-heading h1::before,
     .about-heading h1::after {
         content: '';
         position: absolute;
-        width: 28%; /* Length of decorative lines */
-        height: 8px; /* Thickness of the decorative lines */
-        background-color: var(--clr-primary-dark); /* Color of the lines */
-        bottom: 0; /* Position the lines at the bottom of the text */
+        width: 28%; 
+        height: 8px; 
+        background-color: var(--clr-primary-dark); 
+        bottom: 0; 
         border-radius: 10px;
     }
     
     .about-heading h1::before {
-        left: 0px; /* Distance from the text */
+        left: 0px; 
     }
     
     .about-heading h1::after {
-        left: 0px; /* Distance from the text */
+        left: 0px; 
     }
-    
-    /* Underline */
-    .about-heading h1::after,
+     */
+
+    /* .about-heading h1::after,
     .about-heading h1::before {
         bottom: 0;
         
-    }
+    } */
     .about-cloud{
     position: absolute;
     bottom: -10px;
@@ -435,9 +435,9 @@ max-width: 400px;
 .pr-heading{
     width: 51%;
 }
-.pr-heading h1::after, .pr-heading h1::before{
+/* .pr-heading h1::after, .pr-heading h1::before{
     width: 100%;
-}
+} */
 .registration{
     background-color: var(--clr-primary-dark);
     color: var(--clr-primary);
@@ -634,12 +634,12 @@ max-width: 400px;
         }
     }
     @media (max-width:1025px){
-        .about-heading h1::before, .about-heading h1::after {
+        /* .about-heading h1::before, .about-heading h1::after {
             width: 36%;
         }
         .about-mission p, .about-staff p{
             width: unset;
-        }
+        } */
     }
 
     @media (max-width:991px){
@@ -798,6 +798,11 @@ max-width: 400px;
         .reg-form p{
             font-size: 0.8rem;
         }
+        /* footer */
+        footer i, footer  p,.footer-links li a{
+            font-size: 0.9rem;
+        }
+
     }
     @media (max-width:376px){
         .hero-heading{
