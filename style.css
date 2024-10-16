@@ -808,6 +808,11 @@ max-width: 400px;
         .program-img h5{
             font-size: 1rem;
         }
+        .btn-program-hero {
+            bottom: 55px;
+            right: 12px;
+            font-size: 0.8rem;
+        }
         /* parents resources page */
         .pr-heading h1{
             font-size: 1.5rem;
