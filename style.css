@@ -628,6 +628,10 @@ max-width: 400px;
         .card .content{
             width: 56%;
         }
+        /* parents resources */
+        .pr-heading h1{
+            font-size: 3.5rem;
+        }
     }
     @media (max-width:1025px){
         .about-heading h1::before, .about-heading h1::after {
@@ -701,8 +705,15 @@ max-width: 400px;
             margin-top: 30px;
             margin-bottom: 30px;
         }
+        /* parents resources page */
+        .pr-heading h1{
+            font-size: 2.5rem;
+        }
     }
     @media (max-width:426px){
+        .navbar ul li a{
+            font-size: 1rem;
+        }
         .hero-heading{
             font-size: 3rem;
         }
@@ -774,6 +785,19 @@ max-width: 400px;
         .about-offer h4{
             font-size: 1.2rem;
         }
+        /* parents resources page */
+        .pr-heading h1{
+            font-size: 1.5rem;
+        }
+        .accordion-button{
+            font-size: 0.9rem;
+        }
+        .faq {
+            font-size: 0.9rem;
+        }
+        .reg-form p{
+            font-size: 0.8rem;
+        }
     }
     @media (max-width:376px){
         .hero-heading{
@@ -789,4 +813,5 @@ max-width: 400px;
         .about-heading h1{
             font-size: 2rem;
         }
+       
     }
