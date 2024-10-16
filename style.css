@@ -629,8 +629,19 @@ max-width: 400px;
             width: 56%;
         }
     }
+    @media (max-width:1025px){
+        .about-heading h1::before, .about-heading h1::after {
+            width: 36%;
+        }
+        .about-mission p, .about-staff p{
+            width: unset;
+        }
+    }
 
     @media (max-width:991px){
+        .navbar-nav .nav-link.active::before, .navbar-nav .nav-link.active::after{
+            display: none;
+        }
         .hero p{
             font-size: 1rem;
         }
@@ -675,8 +686,35 @@ max-width: 400px;
             width: 300px;
             text-align: center;
         }
+        .footer h4{
+            margin-top: 50px;
+        }
     }
     @media (max-width:426px){
+        .hero-heading{
+            font-size: 3rem;
+        }
+        .hero-image{
+            display: block;
+        }
+        .hero p{
+            font-size: 0.8rem;
+        }
+        .carousel-content p{
+            width: unset;
+        }
+        .approach-image img{
+            width: 300px;
+        }
+        .approach p{
+            font-size: 0.8rem;
+        }
+        .btn{
+            font-size: 1rem;
+        }
+        .content-image img{
+            width: 300px;
+        }
         .card{
             width: auto;
             max-width: 600px;
@@ -698,5 +736,22 @@ max-width: 400px;
         .card .content{
             width: 100%;
             left: 0;
+        }
+        .carousel-avatar img{
+            width: 220px;
+        }
+        .testimonial-row p {
+            font-size: 0.8rem;
+        }
+    }
+    @media (max-width:376px){
+        .hero-heading{
+            font-size: 2.2rem;
+        }
+        .content-image img{
+            width: 200px;
+        }
+        .card:hover img{
+            height: 280px;
         }
     }
