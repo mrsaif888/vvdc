@@ -765,6 +765,12 @@ max-width: 400px;
         .about-heading h1::before, .about-heading h1::after{
             height: 4.5px;
         }
+        .about-mission p, .about-staff p{
+            font-size: 0.8rem;
+        }
+        .about-mission img, .about-staff img{
+            width: 250px;
+        }
     }
     @media (max-width:376px){
         .hero-heading{
