@@ -398,6 +398,13 @@ max-width: 400px;
 .about-staff{
     background-color: var(--clr-primary);
 }
+.about-mission h2, .about-staff h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-offer h2{
+    text-align: center;
+}
 /* program page */
 .program-bg{
     background-image: url('images/program-bg.jpg');
@@ -643,6 +650,9 @@ max-width: 400px;
     }
 
     @media (max-width:991px){
+        .navbar-expand-lg .navbar-nav{
+            text-align: center;
+        }
         .navbar-nav .nav-link.active::before, .navbar-nav .nav-link.active::after{
             display: none;
         }
