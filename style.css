@@ -765,11 +765,14 @@ max-width: 400px;
         .about-heading h1::before, .about-heading h1::after{
             height: 4.5px;
         }
-        .about-mission p, .about-staff p{
+        .about-mission p, .about-staff p, .about-offer p{
             font-size: 0.8rem;
         }
         .about-mission img, .about-staff img{
             width: 250px;
+        }
+        .about-offer h4{
+            font-size: 1.2rem;
         }
     }
     @media (max-width:376px){
@@ -781,5 +784,9 @@ max-width: 400px;
         }
         .card:hover img{
             height: 280px;
+        }
+        /* about page */
+        .about-heading h1{
+            font-size: 2rem;
         }
     }
