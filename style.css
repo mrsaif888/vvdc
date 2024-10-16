@@ -689,6 +689,18 @@ max-width: 400px;
         .footer h4{
             margin-top: 50px;
         }
+        /* about page */
+        .about-heading h1{
+            font-size: 4rem;
+        }
+        .col-mission{
+            margin-top: 30px;
+        }
+        .col-staff{
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
     }
     @media (max-width:426px){
         .hero-heading{
@@ -742,6 +754,16 @@ max-width: 400px;
         }
         .testimonial-row p {
             font-size: 0.8rem;
+        }
+        /* about page */
+        .about-hero{
+            height: 54vh;
+        }
+        .about-heading h1{
+            font-size: 2.5rem;
+        }
+        .about-heading h1::before, .about-heading h1::after{
+            height: 4.5px;
         }
     }
     @media (max-width:376px){
