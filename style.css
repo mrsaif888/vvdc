@@ -712,6 +712,9 @@ max-width: 400px;
         .toddlers-col-img, .afterschool-col-img{
             text-align: center;
         }
+        .program-img img{
+            width: 300px;
+        }
         /* parents resources page */
         .pr-heading h1{
             font-size: 2.5rem;
