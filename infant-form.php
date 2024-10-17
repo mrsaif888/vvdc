@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli('localhost', 'root', '', 'daycare');
+$conn = new mysqli('localhost', 'n0207181', 'Saif1@saif', 'n0207181_daycare');
 
 // Check connection
 if ($conn->connect_error) {

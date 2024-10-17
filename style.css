@@ -230,6 +230,10 @@
         width: 35%;
         font-size: 1rem;
     }
+    .btn-approach:hover{
+        background-color: var(--clr-secondary-dark);
+        color: var(--clr-primary);
+    }
     /* testimonial section */
     .testimonial{
         background: url(images/testimonial-bg.jpg);
