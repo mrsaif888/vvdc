@@ -752,8 +752,23 @@ max-width: 400px;
         .card{
             margin-bottom: 80px;
         }
-        .card:hover img{
+        .card img{
             height: 280px;
+            right: 0;
+            left: unset;
+        }
+        .card:hover img{
+            left: unset;
+            height: 280px;
+
+        }
+        .card .content{
+
+            left:0;
+           
+           
+            opacity: 1;
+            visibility: visible;
         }
         .btn-approach{
             margin-bottom: 30px;
@@ -828,6 +843,7 @@ max-width: 400px;
             width: auto;
             max-width: 600px;
             align-items: flex-start;
+            height: 600px;
             
         }
         .card:hover{
@@ -836,12 +852,9 @@ max-width: 400px;
         .card img{
             top: unset;
             left: 50%;
-            height: 200px;
+            height: 260px;
         }
-        .card:hover img{
-            left: 50%;
-           height: 350px;
-        }
+      
         .card .content{
             width: 100%;
             left: 0;
