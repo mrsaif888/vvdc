@@ -20,7 +20,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="about.html">About Us</a>
@@ -44,7 +44,8 @@
     <section class="forms">
         <div class="margin-padding">
             <div class="container">
-        <form action="infant-form.php" class="event-form" method="POST">
+                <div id="error-message" style="color: red; display: none;"></div>
+        <form action="infant-form.php" class="event-form" id="form-section" method="POST">
             <h2 class="mb-4">Event Registration</h2>
           
             <label for="parentName" class="form-label">Parent Name:</label><br>
@@ -65,7 +66,7 @@
             <h3 class="mb-3">Select Event:</h3>
             
               <label for="Event">Choose an Event:</label>
-              <select id="category" name="event">
+              <select id="category" name="event" required>
                 <option value="">Select a Event</option>
                 <optgroup label="INFANTS">
                     <option value="Sensory Play Day">Sensory Play Day</option>
@@ -93,8 +94,23 @@
             <label for="comments">Additional Comments or Needs:</label><br>
             <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
           </div>
-            <button type="submit" class="submit-button">Register Now</button>
+          <button type="button" onclick="showReview()" class="submit-button">Next: Review Details</button>
+
           </form>
+          <div id="review-section" class="review-section" style="display: none;">
+            <h2 class="mb-4">Review Your Details</h2>
+            <p><strong>Parent Name:</strong> <span id="review-parentName"></span></p>
+            <p><strong>Email Address:</strong> <span id="review-email"></span></p>
+            <p><strong>Phone Number:</strong> <span id="review-phone"></span></p>
+            <p><strong>Child's Name:</strong> <span id="review-childName"></span></p>
+            <p><strong>Child's Age:</strong> <span id="review-childAge"></span></p>
+            <p><strong>Selected Event:</strong> <span id="review-event"></span></p>
+            <p><strong>Additional Comments:</strong> <span id="review-comments"></span></p>
+
+            <!-- Buttons to edit or confirm submission -->
+            <button type="button" onclick="editForm()">Edit Details</button>
+            <button type="submit" onclick="submitForm()">Confirm and Register</button>
+        </div>
         </div> 
     </div>
     </section>
@@ -156,6 +172,47 @@
     <script src="./index.js" defer> </script>
     <script>
         AOS.init();
+        function showReview() {
+    const parentName = document.getElementById('parentName').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    const childName = document.getElementById('childName').value.trim();
+    const childAge = document.getElementById('childAge').value;
+    const event = document.getElementById('category').value;
+    const comments = document.getElementById('comments').value.trim();
+
+    // Check if all required fields are filled
+    if (!parentName || !email || !phone || !childName || !childAge || !event) {
+        alert("Please fill in all required fields.");
+        return;
+    }
+
+    // Populate review section
+    document.getElementById('review-parentName').innerText = parentName;
+    document.getElementById('review-email').innerText = email;
+    document.getElementById('review-phone').innerText = phone;
+    document.getElementById('review-childName').innerText = childName;
+    document.getElementById('review-childAge').innerText = childAge;
+    document.getElementById('review-event').innerText = event;
+    document.getElementById('review-comments').innerText = comments;
+
+    // Hide the form and show the review section
+    document.getElementById('form-section').style.display = "none";
+    document.getElementById('review-section').style.display = "block";
+}
+
+function editForm() {
+    // Show the form and hide the review section
+    document.getElementById('form-section').style.display = "block";
+    document.getElementById('review-section').style.display = "none";
+}
+
+function submitForm() {
+    document.querySelector('form').submit(); // This will submit the form
+}
+
+
+  
       </script>
     </body>
     </html>
