@@ -470,6 +470,9 @@ max-width: 400px;
     color: var(--clr-primary);
     font-weight:500 ;
 }
+.reg-form a:hover{
+    text-decoration: underline;
+}
     /* contact us page */
     .contact-bg{
         background-image: url('images/contact-bg.jpg');
@@ -811,7 +814,7 @@ max-width: 400px;
             font-size: 2.5rem;
         }
     }
-    @media (max-width:426px){
+    @media (max-width:600px){
         .navbar ul li a{
             font-size: 1rem;
         }
