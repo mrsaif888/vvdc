@@ -25,7 +25,7 @@ Through these features, Saif's project aims to address the current gap in commun
 * Database: A two-table structure in SQL (event registrations and event limits).
   
 
-# Code Structure:
+# File Structure:
 
 ```
 /vvdc
