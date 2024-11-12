@@ -113,5 +113,10 @@ The **Valley View Daycare Website** provides parents with detailed information a
 
 ## Learning Outcomes
 The usability testing approach allowed insights into user experience, and feedback was used for improvements in accessibility and mobile compatibility.
+### Deepen My Understanding of User Experience: 
+By observing real users interact with the website, I will learn to identify usability challenges and frustrations that parents may face.
+### Gain Practical Experience: 
+Designing user tests and scripts will enhance my skills in evaluating user interactions effectively.
+### Apply Feedback for Improvement: 
+The insights gathered will help me make data-driven decisions to enhance the website's usability and accessibility, ultimately leading to a better user experience.
 
----
