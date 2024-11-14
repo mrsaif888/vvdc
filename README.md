@@ -65,5 +65,7 @@ To maintain a friendly and inclusive environment for all contributors to the Val
 5.	Report Issues: If you witness any behavior that goes against this Code of Conduct, please report it to the project maintainers. We take all reports seriously and will address them promptly to ensure a positive environment for everyone.
 # license:
 This project is licensed under the MIT License visit [valley view daycare license](https://github.com/mrsaif888/vvdc/blob/main/license.txt) for the details
+# Installation
+For detailed information on how to set up the project, please refer to the [Developer Documentation](https://github.com/mrsaif888/vvdc/blob/main/developer%20documentation.md).
 
 

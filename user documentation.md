@@ -95,6 +95,4 @@ The Valley View Daycare website has been built with accessibility in mind, ensur
 - **Problem:** Buttons or forms are too small on mobile devices.
 - **Solution:** If interactive elements appear too small, you can try switching to landscape mode or using a tablet or desktop for better visibility. The site is designed to adapt to different screen sizes, but occasionally zooming in might help.
 
----
 
-End of User Documentation.
