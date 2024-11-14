@@ -723,10 +723,13 @@ max-width: 400px;
             text-align: center;
         }
         .navbar-nav .nav-link.active::before, .navbar-nav .nav-link.active::after{
-            display: none;
+           
         }
         .hero p{
             font-size: 1rem;
+        }
+        .navbar ul li{
+            margin-bottom: 10px;
         }
         .contact-us-box{
             flex-direction: column-reverse;
