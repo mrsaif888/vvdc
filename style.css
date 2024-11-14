@@ -725,6 +725,14 @@ max-width: 400px;
         .navbar-nav .nav-link.active::before, .navbar-nav .nav-link.active::after{
            
         }
+        .nav-item a{
+            display: inline;
+        }
+      
+        .nav-link.active::after{
+            right: unset;
+            width: 0 !important;
+        }
         .hero p{
             font-size: 1rem;
         }
