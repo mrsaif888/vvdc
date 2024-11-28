@@ -733,9 +733,7 @@ max-width: 400px;
             right: unset;
             width: 0 !important;
         }
-        .hero p{
-            font-size: 1rem;
-        }
+       
         .navbar ul li{
             margin-bottom: 10px;
         }
@@ -835,18 +833,14 @@ max-width: 400px;
         .hero-image{
             display: block;
         }
-        .hero p{
-            font-size: 0.8rem;
-        }
+        
         .carousel-content p{
             width: unset;
         }
         .approach-image img{
             width: 300px;
         }
-        .approach p{
-            font-size: 0.8rem;
-        }
+       
         .btn{
             font-size: 1rem;
         }
@@ -876,9 +870,7 @@ max-width: 400px;
         .carousel-avatar img{
             width: 220px;
         }
-        .testimonial-row p {
-            font-size: 0.8rem;
-        }
+       
         /* about page */
         .about-hero{
             height: 54vh;
@@ -889,9 +881,7 @@ max-width: 400px;
         .about-heading h1::before, .about-heading h1::after{
             height: 4.5px;
         }
-        .about-mission p, .about-staff p, .about-offer p{
-            font-size: 0.8rem;
-        }
+        
         .about-mission img, .about-staff img{
             width: 250px;
         }
@@ -899,9 +889,7 @@ max-width: 400px;
             font-size: 1.2rem;
         }
         /* program page */
-        .program-img p{
-            font-size: 0.9rem;
-        }
+        
         .program-img img{
             width: 200px;
         }
@@ -920,19 +908,10 @@ max-width: 400px;
         .pr-heading h1{
             font-size: 1.5rem;
         }
-        .accordion-button{
-            font-size: 0.9rem;
-        }
-        .faq {
-            font-size: 0.9rem;
-        }
-        .reg-form p{
-            font-size: 0.8rem;
-        }
+        
+        
         /* footer */
-        footer i, footer  p,.footer-links li a{
-            font-size: 0.9rem;
-        }
+       
 
     }
     @media (max-width:376px){
