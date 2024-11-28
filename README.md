@@ -48,6 +48,12 @@ Through these features, Saif's project aims to address the current gap in commun
 └── pdf                   # emergency evacuation form
 └── pdf                   # allergy form
 
+└── User Documentation.md  # User Documentation
+└── Developer documentation.md  # Developer documentation
+└── ancillary documentation.md  # ancillary documentation
+└── license.md                 # license
+└── README.md                  # README
+
 ```
 # Contributing Guidelines:
 Contributions to the Valley View Daycare website project are welcome! To ensure a smooth collaboration process, please adhere to the following guidelines:
