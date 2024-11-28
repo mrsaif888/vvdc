@@ -49,8 +49,6 @@
     .navbar-nav .nav-link::after{
         right: 0;
        
-        
-    
     }
     .navbar-nav .nav-link.active::before,.navbar-nav .nav-link.active::after{
         width: 100%;
@@ -909,9 +907,6 @@ max-width: 400px;
             font-size: 1.5rem;
         }
         
-        
-        /* footer */
-       
 
     }
     @media (max-width:376px){
